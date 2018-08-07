@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".horror_activity.HorrorStart"></activity>
+        <activity android:name=".horror_activity.HorrorStart" />
+        <activity android:name=".drama_activity.DramaStart" />
+        <activity android:name=".sci_fi_activity.SciFiStart"></activity>
     </application>
 
 </manifest>
