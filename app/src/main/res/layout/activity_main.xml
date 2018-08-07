@@ -27,7 +27,8 @@
             android:id="@+id/buttonHorror"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/horror" />
+            android:text="@string/horror"
+            android:onClick="Horror"/>
 
         <Button
             android:id="@+id/buttonDrama"
