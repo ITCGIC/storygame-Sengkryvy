@@ -21,26 +21,29 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginHorizontal="50dp">
 
         <Button
             android:id="@+id/buttonHorror"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
             android:text="@string/horror"
-            android:onClick="Horror"/>
+            android:textColor="#ffffff"
+            android:onClick="Horror"
+            android:background="@drawable/horror"/>
 
-        
         <Button
             android:id="@+id/buttonDrama"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/drama"
+
             android:onClick="Drama"/>
 
         <Button
             android:id="@+id/buttonSciFi"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sci_fi"
             android:onClick="SciFi"/>
